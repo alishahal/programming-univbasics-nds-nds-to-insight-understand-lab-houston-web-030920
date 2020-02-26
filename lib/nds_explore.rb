@@ -13,11 +13,10 @@ end
 
 def print_first_directors_movie_titles
   
-  all_movies = directors_database[0][:movies]
-  row_index = 0 
+     all_movies = directors_database[0][:movies]
+     row_index = 0 
   while row_index < all_movies.length do
-    list = all_movies[row_index][:title]
-    puts list
+    puts = all_movies[row_index][:title]
       row_index += 1 
   end
   
